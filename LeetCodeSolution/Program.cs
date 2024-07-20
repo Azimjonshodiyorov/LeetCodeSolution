@@ -1,3 +1,13 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿namespace LeetCodeSolution;
 
-Console.WriteLine("Hello, World!");
+public class Program
+{
+    public static void Main(string[] args)
+    {
+        Dictionary<char, char> chars = new Dictionary<char, char>();
+        
+        chars.Add('a','b');
+
+        Console.WriteLine(chars['a']);
+    }
+}
