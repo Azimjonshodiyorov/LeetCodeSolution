@@ -4,10 +4,8 @@ public class Program
 {
     public static void Main(string[] args)
     {
-        Dictionary<char, char> chars = new Dictionary<char, char>();
-        
-        chars.Add('a','b');
+        ReverseWords sol = new ReverseWords();
 
-        Console.WriteLine(chars['a']);
+        Console.WriteLine(sol.ReverseToWords(" ashbjk   kdmslk kmlsd "));
     }
 }
