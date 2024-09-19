@@ -4,8 +4,8 @@ public class Program
 {
     public static void Main(string[] args)
     {
-        ReverseWords sol = new ReverseWords();
-
-        Console.WriteLine(sol.ReverseToWords(" ashbjk   kdmslk kmlsd "));
+        ReverseStringSolution sol = new ReverseStringSolution();
+        char[] he = new[] { 'q', 'w', 'r', 't' };
+        sol.ReverseString(he);
     }
-}
+}   
