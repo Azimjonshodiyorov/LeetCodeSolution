@@ -4,8 +4,12 @@ public class Program
 {
     public static void Main(string[] args)
     {
-        ReverseStringSolution sol = new ReverseStringSolution();
-        char[] he = new[] { 'q', 'w', 'r', 't' };
-        sol.ReverseString(he);
+        int[] nums = { 1, 9, 3, 5, 6, 4, 8, 7 };
+        nums = BubbleSort.Sort(nums);
+        foreach (var item in nums)
+        {
+            Console.WriteLine(item);
+        }
+
     }
-}   
+}
